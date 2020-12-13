@@ -1,9 +1,12 @@
 import * as React from "react"
 import { Container } from "./styles"
+//components
+import ContentHeader from "../ContentHeader"
 
-const Content: React.FC = () => (
+const Content: React.FC = ({ children }) => (
   <Container>
-    <h1>Content</h1>
+    <ContentHeader />
+    {children}
   </Container>
 )
 

@@ -5,11 +5,11 @@ import MainHeader from "../MainHeader"
 import SideMenu from "../SideMenu"
 import Content from "../Content"
 
-const Layout: React.FC = () => (
+const Layout: React.FC = ({ children }) => (
   <Grid>
     <MainHeader />
     <SideMenu />
-    <Content />
+    <Content>{children}</Content>
   </Grid>
 )
 

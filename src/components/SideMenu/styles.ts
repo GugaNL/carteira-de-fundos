@@ -34,10 +34,10 @@ export const MenuItemLink = styled.a`
   color: ${(props) => props.theme.colors.info};
   margin: 8px 0;
 
-  transition: color 0.3s;
+  transition: opacity 0.3s;
 
   &:hover {
-    color: ${(props) => props.theme.colors.gray};
+    opacity: 0.7;
   }
 
   > svg {
