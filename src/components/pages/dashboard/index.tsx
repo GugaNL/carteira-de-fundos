@@ -4,7 +4,7 @@ import { Container } from "./styles"
 
 const Dashboard: React.FC = () => (
   <Container>
-    <h2>Dashboard</h2>
+    <h2>Dashboard page content</h2>
   </Container>
 )
 

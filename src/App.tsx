@@ -10,9 +10,7 @@ import Dashboard from "./components/pages/dashboard"
 const App: React.FC = () => (
   <ThemeProvider theme={Dark}>
     <GlobalStyle />
-    <Layout>
-      <Dashboard />
-    </Layout>
+    <Layout />
   </ThemeProvider>
 )
 
