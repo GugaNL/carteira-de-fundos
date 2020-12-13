@@ -14,7 +14,7 @@ export const ToogleTheme = styled(Switch).attrs<ReactSwitchProps>(
   ({ theme }) => ({
     onColor: theme.colors.info,
     offColor: theme.colors.warning,
-    height: 20,
+    height: 25,
   })
 )<ReactSwitchProps>`
   margin: 0 8px;
